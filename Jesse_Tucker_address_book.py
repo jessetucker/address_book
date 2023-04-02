@@ -4,6 +4,7 @@
 
 # CHAPTER 10 PAGE 388, IN THE SPOTLIGHT 10-2
 
+# Constants to control menu choices.
 LOOK_UP = 1
 ADD = 2
 CHANGE = 3
