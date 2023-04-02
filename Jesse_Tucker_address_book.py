@@ -42,16 +42,16 @@ def main():
 
         choice = display_message()
 
-        if choice == 1:
+        if choice == LOOK_UP:
              look_up(phonebook)
-        elif choice == 2:
-             add()
-        elif choice == 3:
-             change()
-        elif choice == 4:
-             delete()
-        elif choice == 5:
-             save()
+        elif choice == ADD:
+             add(phonebook)
+        elif choice == CHANGE:
+             change(phonebook)
+        elif choice == DELETE:
+             delete(phonebook)
+        elif choice == SAVE:
+             save(phonebook)
 
 
 # This function display a menu to the user with 5 choices to
