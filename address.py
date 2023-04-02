@@ -127,7 +127,13 @@ def delete(phonebook):
 
 # 
 def save(phonebook):
-    print()
+    filename = 'phonebook.out'
+    write_mode = 'w'
+    outfile = open(filename, write_mode)
+
+    for key in phonebook:
+        for value in phonebook:
+            outfile.writelines(key + "\n" + value)
 
 # Call the main funtion
 main()
